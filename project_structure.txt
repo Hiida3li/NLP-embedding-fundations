@@ -1,0 +1,20 @@
+NLP_EMBEDDING/
+├── classification_1st
+├── __init__.py
+├── preprocessors/
+│   ├── __init__.py
+│   ├── base_preprocessor.py
+│   ├── default_preprocessor.py
+│   ├── stopwords_preprocessor.py
+│   ├── lemmatizer_preprocessor.py
+│   ├── stemmer_preprocessor.py
+│   └── simple_split_preprocessor.py
+├── models/
+│   ├── __init__.py
+│   └── naive_bayes_classifier.py
+├── utils/
+│   ├── __init__.py
+│   ├── data_loader.py
+│   └── visualization.py
+├── experiment.py
+└── main.py
